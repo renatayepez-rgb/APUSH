@@ -1,0 +1,286 @@
+MASTER PROMPT FOR CURSOR
+App Overview
+
+Build a cross-platform native mobile app (iOS, Android, Web) using Expo + React Native that helps students master AP U.S. History.
+The app should cover all APUSH units, provide practice questions, essay feedback, study strategies, and AI-powered study tools (concept maps, flashcards, essay corrections, and study schedules).
+The app must be simple, student-friendly, bilingual (English / Spanish), and optimized for AP exam success.
+
+Core Goals
+
+Teach all AP U.S. History units (1–9) clearly
+
+Improve DBQ, LEQ, and SAQ writing
+
+Improve multiple-choice strategy and reading analysis
+
+Provide personalized AI-powered studying
+
+Support test planning, reminders, and notifications
+
+Be deployable to Vercel and Expo-ready
+
+Units to Include (APUSH)
+
+Native American Societies & European Colonization
+
+Colonial Society & British Empire
+
+American Revolution
+
+Constitution & New Republic
+
+Sectionalism & Reform
+
+Civil War & Reconstruction
+
+Industrialization & Gilded Age
+
+Progressivism, WWI, Great Depression, WWII
+
+Cold War to Modern America
+
+Each unit must include:
+
+Key themes
+
+Important terms & people
+
+Timeline
+
+Essay topics
+
+MCQ strategies
+
+DBQ/LEQ skills tied to the unit
+
+Features
+1. Unit Learning Dashboard
+
+Unit overview
+
+Key concepts
+
+Required vocabulary
+
+Essential historical thinking skills (causation, comparison, continuity & change)
+
+Bilingual toggle (English / Spanish)
+
+2. Practice Questions
+
+AP-style Multiple Choice
+
+Short Answer Questions (SAQ)
+
+Long Essay Questions (LEQ)
+
+Document-Based Questions (DBQ)
+
+Instant explanations for correct/incorrect answers
+
+3. AI Essay Correction & Coaching
+
+Student pastes or types essay
+
+Student selects:
+
+Unit
+
+Essay type (DBQ / LEQ / SAQ)
+
+AI:
+
+Scores using AP rubric
+
+Highlights strengths & weaknesses
+
+Suggests specific sentence-level improvements
+
+Explains how to earn missing points
+
+Teaches why changes matter
+
+Output should be clear, supportive, and instructional
+
+4. Multiple-Choice Strategy Trainer
+
+AI explains:
+
+How to analyze documents
+
+How to eliminate wrong answers
+
+How to identify traps
+
+Includes timed practice mode
+
+Strategy tips tied to reading excerpts & visuals
+
+5. Related Topics for Essays
+
+For each unit and essay:
+
+Suggest outside evidence
+
+Explain connections between topics
+
+Teach synthesis skills
+
+Automatically recommend what students must know to score higher
+
+6. AI Study Tools
+
+Concept Map Generator
+
+Visual relationships between events, causes, effects
+
+Flashcard Generator
+
+Key terms, dates, people
+
+Spaced repetition support
+
+Adaptive Study Suggestions
+
+Focus on weak areas
+
+Adjust based on progress
+
+7. Personalized Study Schedule
+
+Student inputs:
+
+Test date
+
+Available study time per day
+
+AI generates:
+
+Daily study plan
+
+Unit pacing
+
+Review days
+
+Schedule displayed in:
+
+Simple checklist format
+
+English / Spanish
+
+Ability to edit schedule manually
+
+8. Test Dates & Notifications
+
+Calendar for:
+
+Tests
+
+Essays due
+
+Quizzes
+
+Push notifications:
+
+Study reminders
+
+“Decision alerts” (what to study next)
+
+Expo Notifications support
+
+Tech Requirements
+Frontend
+
+Expo (React Native)
+
+TypeScript
+
+React Navigation
+
+Zustand or Context API for state
+
+Responsive mobile-first UI
+
+Dark / light mode
+
+Backend / API
+
+Serverless API routes (Vercel)
+
+AI integration (OpenAI or compatible LLM)
+
+Prompt-based AI tools for:
+
+Essay feedback
+
+Concept maps
+
+Flashcards
+
+Study plans
+
+Data
+
+Static curriculum data for APUSH units
+
+User-generated content (essays, notes)
+
+Local storage + optional cloud sync
+
+AI Prompting Logic
+
+Unit-aware prompts
+
+Rubric-based essay evaluation
+
+Bilingual responses
+
+Age-appropriate tone
+
+Clear explanations, not just answers
+
+Styling & UX
+
+Clean, modern academic design
+
+Student-friendly language
+
+Icons and progress indicators
+
+Minimal cognitive overload
+
+Accessibility-friendly fonts and spacing
+
+Deployment Readiness
+
+Web-compatible (Expo Web)
+
+Deployable to Vercel
+
+Environment variable support for API keys
+
+Production-ready folder structure
+
+README with setup instructions
+
+Output Expectations
+
+Generate:
+
+App architecture & folder structure
+
+Core screens & navigation
+
+Example AI prompts for:
+
+Essay grading
+
+Flashcards
+
+Concept maps
+
+Sample APUSH unit data
+
+Initial UI components
+
+Deployment instructions for Vercel
