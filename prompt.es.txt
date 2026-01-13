@@ -1,0 +1,287 @@
+PROMPT MAESTRO PARA CURSOR
+Descripción general de la app
+
+Crea una app móvil nativa multiplataforma (iOS, Android y Web) usando Expo + React Native que ayude a los estudiantes a dominar AP Historia de los Estados Unidos (AP U.S. History / APUSH).
+La app debe cubrir todas las unidades de APUSH, ofrecer preguntas de práctica, retroalimentación de ensayos, estrategias de estudio y herramientas de estudio con IA (mapas conceptuales, tarjetas/flashcards, corrección de ensayos y horarios de estudio).
+La app debe ser simple, amigable para estudiantes, bilingüe (inglés / español) y optimizada para el éxito en el examen AP.
+
+Objetivos principales
+
+Enseñar claramente todas las unidades de AP Historia de EE. UU. (1–9)
+
+Mejorar la escritura de DBQ, LEQ y SAQ
+
+Mejorar la estrategia de opción múltiple y el análisis de lectura
+
+Ofrecer estudio personalizado con IA
+
+Soportar planificación del examen, recordatorios y notificaciones
+
+Ser desplegable en Vercel y lista para Expo
+
+Unidades a incluir (APUSH)
+
+Sociedades indígenas de Norteamérica y colonización europea
+
+Sociedad colonial e Imperio británico
+
+Revolución estadounidense
+
+Constitución y nueva república
+
+Seccionalismo y reforma
+
+Guerra Civil y Reconstrucción
+
+Industrialización y Era Dorada
+
+Progresismo, Primera Guerra Mundial, Gran Depresión, Segunda Guerra Mundial
+
+Guerra Fría hasta la América moderna
+
+Cada unidad debe incluir:
+
+Temas clave
+
+Términos y personajes importantes
+
+Línea del tiempo
+
+Temas de ensayo
+
+Estrategias para MCQ (opción múltiple)
+
+Habilidades de DBQ/LEQ vinculadas a la unidad
+
+Funciones
+1. Panel de aprendizaje por unidad
+
+Resumen de la unidad
+
+Conceptos clave
+
+Vocabulario requerido
+
+Habilidades esenciales de pensamiento histórico (causación, comparación, continuidad y cambio)
+
+Selector bilingüe (inglés / español)
+
+2. Preguntas de práctica
+
+Opción múltiple estilo AP (MCQ)
+
+Preguntas de respuesta corta (SAQ)
+
+Ensayo largo (LEQ)
+
+Pregunta basada en documentos (DBQ)
+
+Explicaciones inmediatas para respuestas correctas/incorrectas
+
+3. Corrección y coaching de ensayos con IA
+
+El estudiante pega o escribe su ensayo
+
+El estudiante selecciona:
+
+Unidad
+
+Tipo de ensayo (DBQ / LEQ / SAQ)
+
+La IA:
+
+Califica usando la rúbrica AP
+
+Resalta fortalezas y debilidades
+
+Sugiere mejoras específicas a nivel de oración
+
+Explica cómo obtener los puntos que faltan
+
+Enseña por qué los cambios importan
+
+La salida debe ser clara, de apoyo y educativa.
+
+4. Entrenador de estrategia para opción múltiple
+
+La IA explica:
+
+Cómo analizar documentos
+
+Cómo eliminar respuestas incorrectas
+
+Cómo identificar “trampas”
+
+Incluye modo cronometrado
+
+Consejos de estrategia vinculados a fragmentos de lectura y elementos visuales
+
+5. Temas relacionados para ensayos
+
+Para cada unidad y ensayo:
+
+Sugiere evidencia externa
+
+Explica conexiones entre temas
+
+Enseña habilidades de síntesis
+
+Recomienda automáticamente lo que el estudiante debe saber para obtener una mejor puntuación
+
+6. Herramientas de estudio con IA
+
+Generador de mapa conceptual
+
+Relaciones visuales entre eventos, causas y efectos
+
+Generador de flashcards (tarjetas)
+
+Términos clave, fechas y personajes
+
+Soporte de repetición espaciada
+
+Sugerencias de estudio adaptativas
+
+Enfocadas en áreas débiles
+
+Se ajustan según el progreso
+
+7. Horario de estudio personalizado
+
+El estudiante ingresa:
+
+Fecha del examen
+
+Tiempo disponible de estudio por día
+
+La IA genera:
+
+Plan diario de estudio
+
+Ritmo por unidades
+
+Días de repaso
+
+El horario se muestra en:
+
+Formato de checklist simple
+
+Inglés / español
+
+Capacidad de editar el horario manualmente
+
+8. Fechas de exámenes y notificaciones
+
+Calendario para:
+
+Exámenes
+
+Entregas de ensayos
+
+Quices
+
+Notificaciones push:
+
+Recordatorios de estudio
+
+“Alertas de decisión” (qué estudiar después)
+
+Soporte de Expo Notifications
+
+Requisitos técnicos
+Frontend
+
+Expo (React Native)
+
+TypeScript
+
+React Navigation
+
+Zustand o Context API para estado
+
+UI responsiva, mobile-first
+
+Modo claro / oscuro
+
+Backend / API
+
+Rutas API serverless (Vercel)
+
+Integración de IA (OpenAI o un LLM compatible)
+
+Herramientas con IA basadas en prompts para:
+
+Retroalimentación de ensayos
+
+Mapas conceptuales
+
+Flashcards
+
+Planes de estudio
+
+Datos
+
+Datos estáticos del currículo para unidades APUSH
+
+Contenido generado por el usuario (ensayos, notas)
+
+Almacenamiento local + sincronización en la nube opcional
+
+Lógica de prompting para IA
+
+Prompts conscientes de la unidad
+
+Evaluación de ensayos basada en la rúbrica
+
+Respuestas bilingües
+
+Tono apropiado para la edad
+
+Explicaciones claras, no solo respuestas
+
+Estilo y UX
+
+Diseño académico limpio y moderno
+
+Lenguaje amigable para estudiantes
+
+Íconos e indicadores de progreso
+
+Mínima sobrecarga cognitiva
+
+Tipografías y espaciado accesibles
+
+Preparación para despliegue
+
+Compatible con web (Expo Web)
+
+Desplegable en Vercel
+
+Soporte de variables de entorno para claves API
+
+Estructura de carpetas lista para producción
+
+README con instrucciones de configuración
+
+Expectativas de salida
+
+Generar:
+
+Arquitectura de la app y estructura de carpetas
+
+Pantallas principales y navegación
+
+Ejemplos de prompts de IA para:
+
+Calificación de ensayos
+
+Flashcards
+
+Mapas conceptuales
+
+Datos de ejemplo de una unidad APUSH
+
+Componentes UI iniciales
+
+Instrucciones de despliegue para Vercel
+

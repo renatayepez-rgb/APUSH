@@ -1,0 +1,16 @@
+{
+  "name": "apush-study-app",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix apps/apush run start",
+    "web": "npm --prefix apps/apush run web",
+    "export:web": "npm --prefix apps/apush run export:web",
+    "typecheck": "npm --prefix apps/apush run typecheck",
+    "vercel-build": "npm --prefix apps/apush ci && npm --prefix apps/apush run export:web"
+  },
+  "dependencies": {
+    "openai": "^5.23.2",
+    "zod": "^3.25.76"
+  }
+}
+
