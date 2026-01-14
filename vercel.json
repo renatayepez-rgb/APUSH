@@ -1,10 +1,12 @@
 {
+  "version": 2,
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "apps/apush/dist",
   "framework": null,
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
 
