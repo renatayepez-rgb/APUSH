@@ -6,7 +6,7 @@
     "web": "npm --prefix apps/apush run web",
     "export:web": "npm --prefix apps/apush run export:web",
     "typecheck": "npm --prefix apps/apush run typecheck",
-    "vercel-build": "npm --prefix apps/apush ci && npm --prefix apps/apush run export:web"
+    "vercel-build": "npm --prefix apps/apush ci && npm --prefix apps/apush run export:web && node scripts/patch-expo-web.mjs"
   },
   "dependencies": {
     "openai": "^5.23.2",
